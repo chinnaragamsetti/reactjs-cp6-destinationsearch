@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 10px;
+  height: 100vh;
+}
+.heading {
+  font-size: 30px;
+  color: #252627;
+}
+.inputcontainer {
+  display: flex;
+  padding: 5px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+.searchicon {
+  width: 30px;
+  height: 30px;
+}
+
+.itemslist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.inputbar {
+  border: 0px solid #f1f5f9;
+  background-color: #f1f5f9;
+  padding: 2px;
+}

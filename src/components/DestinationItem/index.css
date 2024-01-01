@@ -1,0 +1,14 @@
+/* Write your CSS here */
+
+.eachlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 300px;
+  margin: 5px;
+}
+.eachlistheading {
+  font-size: 15px;
+  color: #000000;
+}
