@@ -5,7 +5,7 @@ import {Component} from 'react'
 import Eachdestination from '../DestinationItem'
 
 class DestinationSearch extends Component {
-  state = {searchInput: 'es'}
+  state = {searchInput: ''}
 
   onChangesearchinput = event => {
     this.setState({searchInput: event.target.value})
